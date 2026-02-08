@@ -48,6 +48,11 @@ Java 기반의 비동기 처리와 Oracle Cloud를 활용한 클라우드 배포
 5. **인프라:** OCI VM 인스턴스에서 `Screen`을 통해 데몬 형태로 상주하며 실행
 
 ---
+<br><br>
+https://github.com/user-attachments/assets/0a27f59a-36d0-4255-a4a6-48c0858286bc
+
+
+
 
 ## 🚀 트러블 슈팅 (Trouble Shooting) & 배운 점
 
@@ -80,4 +85,5 @@ Java 기반의 비동기 처리와 Oracle Cloud를 활용한 클라우드 배포
 ```bash
 git clone [https://github.com/wjdrlgh93/bunnyTranslate.git](https://github.com/wjdrlgh93/bunnyTranslate.git)
 cd bunnyTranslate
+
 
