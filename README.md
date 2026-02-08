@@ -49,7 +49,7 @@ Java 기반의 비동기 처리와 Oracle Cloud를 활용한 클라우드 배포
 
 ---
 <br><br>
-https://github.com/user-attachments/assets/0a27f59a-36d0-4255-a4a6-48c0858286bc
+![녹음 2026-02-08 120310](https://github.com/user-attachments/assets/0606f6d9-86d4-48c7-bee6-844fc52193f8)
 
 
 
@@ -74,16 +74,5 @@ https://github.com/user-attachments/assets/0a27f59a-36d0-4255-a4a6-48c0858286bc
 
 ---
 
-## 💻 설치 및 실행 방법 (How to run)
-
-### 1. 사전 요구 사항
-- Java 17 이상
-- Discord Bot Token
-- DeepL API Key
-
-### 2. 프로젝트 클론
-```bash
-git clone [https://github.com/wjdrlgh93/bunnyTranslate.git](https://github.com/wjdrlgh93/bunnyTranslate.git)
-cd bunnyTranslate
 
 
