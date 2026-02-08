@@ -1,4 +1,6 @@
 
+<img width="639" height="544" alt="image" src="https://github.com/user-attachments/assets/235b26ad-fb4f-48ed-8da2-2a1b8a963e00" />
+
 # 🐰 BunnyTranslate (Discord Global Bridge)
 
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -78,3 +80,4 @@ Java 기반의 비동기 처리와 Oracle Cloud를 활용한 클라우드 배포
 ```bash
 git clone [https://github.com/wjdrlgh93/bunnyTranslate.git](https://github.com/wjdrlgh93/bunnyTranslate.git)
 cd bunnyTranslate
+
