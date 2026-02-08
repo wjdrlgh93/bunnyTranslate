@@ -49,8 +49,9 @@ Java 기반의 비동기 처리와 Oracle Cloud를 활용한 클라우드 배포
 
 ---
 <br><br>
-![녹음 2026-02-08 120310](https://github.com/user-attachments/assets/0606f6d9-86d4-48c7-bee6-844fc52193f8)
-
+![녹음 2026-02-08 120310](https://github.com/user-attachments/assets/0606f6d9-86d4-48c7-bee6-844fc52193f8)<br>
+<img width="1541" height="721" alt="546599989-7eac8fcb-24f1-4c80-b28d-0b3e06d37c64" src="https://github.com/user-attachments/assets/f3836a4e-ce11-49f7-89c6-eb0759783c9c" />
+<br>
 
 
 
@@ -68,11 +69,13 @@ Java 기반의 비동기 처리와 Oracle Cloud를 활용한 클라우드 배포
 - **원인:** 오라클 클라우드의 기본 VCN Security List(보안 목록)에서 22번 포트에 대한 인바운드 규칙(Ingress Rule)이 부재함.
 - **해결:** VCN 설정에서 0.0.0.0/0 (All Traffic)에 대해 TCP 22번 포트를 허용하도록 **Ingress Rule을 수동으로 추가**하여 외부 접속 환경 구축.
 
+
 ### 3. API 보안 및 환경 변수 관리
 - **문제:** API 키와 토큰이 코드에 하드코딩되어 있어, 버전 관리 시스템(Git) 업로드 시 보안 위험 발생.
 - **해결:** `dotenv-java` 라이브러리를 도입하여 민감한 정보를 `.env` 파일로 분리. `.gitignore` 설정을 통해 깃허브 업로드를 차단하고, 서버 환경에서 별도로 환경 변수를 주입하는 방식으로 **보안 사고를 예방**함.
 
 ---
+
 
 
 
