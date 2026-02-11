@@ -36,8 +36,9 @@ public class nsbot extends ListenerAdapter {
                     .build();
            jda.awaitReady();
            jda.updateCommands().addCommands(
-                    Commands.context(Command.Type.MESSAGE, "일본어로 번역 (To JA)"),
-                    Commands.context(Command.Type.MESSAGE, "한국어로 번역 (To KO)")
+                    Commands.context(Command.Type.MESSAGE, "한국어 -> 日本語"),
+                    Commands.context(Command.Type.MESSAGE, "日本語 -> 한국어"),
+                    Commands.context(Command.Type.MESSAGE, "日本語 -> English")
             ).queue();
 
             System.out.println("✅ 봇이 정상적으로 실행되었습니다! (우클릭 메뉴 등록 완료)");
@@ -47,6 +48,7 @@ public class nsbot extends ListenerAdapter {
             e.printStackTrace();
         }
     }
+
    @Override
     public void onMessageReceived(MessageReceivedEvent event) {
         if (event.getAuthor().isBot()) return;
@@ -72,15 +74,18 @@ public class nsbot extends ListenerAdapter {
 
         String targetLang;
         String flag;
-       if (event.getName().equals("일본어로 번역 (To JA)")) {
+       if (event.getName().equals("한국어 -> 日本語")) {
             targetLang = "JA";
             flag = "🇯🇵";
-        } else if (event.getName().equals("한국어로 번역 (To KO)")) {
+        } else if (event.getName().equals("日本語 -> 한국어")) {
             targetLang = "KO";
             flag = "🇰🇷";
+        } else if (event.getName().equals("日本語 -> English")) {
+           targetLang = "EN-US"; flag = "🇺🇸"; // ⬅️ 영어 로직 추가
         } else {
             return; // 등록되지 않은 메뉴면 무시
         }
+      // 지연 응답 (기존과 동일하게 모두에게 보임)
        event.deferReply().queue();
 
         String translatedText = callDeepL(targetMessage, targetLang);
