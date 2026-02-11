@@ -1,6 +1,11 @@
 
 <img width="639" height="544" alt="image" src="https://github.com/user-attachments/assets/235b26ad-fb4f-48ed-8da2-2a1b8a963e00" />
 
+# 업데이트 일람 
+
+2/10 버그픽스 <br/>
+2/11 일->영 번역 기능 추가 <br/>
+------
 # 🐰 BunnyTranslate (Discord Global Bridge)
 
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
@@ -109,6 +114,7 @@ Java 기반의 비동기 처리와 Oracle Cloud를 활용한 클라우드 배포
 - **해결:** 리눅스 서버 내에서 `nano` 에디터를 통해 로컬과 동일한 환경 변수 파일을 수동 생성하고, 파일 권한을 제한하여 보안성을 확보함.
 
 ---
+
 
 
 
